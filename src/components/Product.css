@@ -1,0 +1,25 @@
+/* Product.css */
+.bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.price .discount {
+  color: orangered;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.price .discount svg {
+  vertical-align: -.09em;
+}
+
+.total p {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 3px;
+}

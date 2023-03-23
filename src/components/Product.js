@@ -1,6 +1,7 @@
-import { FaArrowDown } from 'react-icons/fa';
+import { FiArrowDown } from 'react-icons/fi';
 import BtnLike from "./BtnLike";
 
+import './Product.css'
 
 const Product = ({data}) => {
     let category = ['현지투어/교통','스파/찜질','뷔페/외식','테마/놀이','캠핑/레포츠','체험/축제','얼린여행']
@@ -17,12 +18,35 @@ const Product = ({data}) => {
                                     <figcaption>
                                         <dl>
                                             <dt className="title">{item.title}</dt>
-                                            <dd className="price">
-                                                <p>{item.price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원</p>
-                                                <p>{item.discount}% <FaArrowDown /></p>
-                                                <p>{(item.price - Math.ceil(item.price * (item.discount / 100))).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원</p>
-                                            </dd>
                                             <dd className="category">{category[item.category]}</dd>
+                                            <dd className="price">
+                                                <p className={item.discount === 0 && "bold"}>
+                                                    {
+                                                        (item.discount === 0)
+                                                        ?
+                                                        `${item.price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원`
+                                                        :
+                                                        <del>{item.price.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원</del>
+
+                                                    }
+                                                </p>
+                                                <p className="discount">
+                                                    {
+                                                      item.discount !== 0 && `${item.discount}%`
+                                                    }
+                                                    {
+                                                        item.discount !== 0 && <FiArrowDown />
+                                                    }
+                                                    
+                                                </p>
+                                            </dd>
+                                            <dd className="total">
+                                                <p>
+                                                    {
+                                                        item.discount !== 0 && `${(item.price - Math.ceil(item.price * (item.discount / 100))).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원`
+                                                    }
+                                                </p>
+                                            </dd>
                                             <dd className="review" data-review={item.review}>
                                                 <span></span>
                                                 <i>&#40;{item.review}&#41;</i>
