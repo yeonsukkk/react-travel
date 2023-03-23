@@ -1,4 +1,13 @@
 /* Product.css */
+.cartWrap h3 svg {
+  vertical-align: -1.5px;
+}
+.cartWrap ul li {
+  position: relative;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
 .bold {
   font-weight: bold;
   font-size: 15px;
@@ -22,4 +31,19 @@
   font-weight: bold;
   font-size: 15px;
   margin-top: 3px;
+}
+
+.delete {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.delete svg {
+  font-size: 20px;
+  transition: all .25s;
+}
+
+.delete:hover svg {
+  transform: scale(1.08) rotate(.002deg);
 }

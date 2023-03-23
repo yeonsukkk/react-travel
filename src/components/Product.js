@@ -3,8 +3,7 @@ import BtnLike from "./BtnLike";
 
 import './Product.css'
 
-const Product = ({data}) => {
-    let category = ['현지투어/교통','스파/찜질','뷔페/외식','테마/놀이','캠핑/레포츠','체험/축제','얼린여행']
+const Product = ({data, category}) => {
 
     return(
         <div className="cnt">

@@ -4,6 +4,8 @@ import { fetchAllProduct } from '../redux/list';
 import MainBanner from './MainBanner'
 import Product from './Product';
 
+import { category } from '../api/api';
+
 const Home = () => {
     let state = useSelector(state => state)
     let {data} = state.productData
@@ -44,7 +46,7 @@ const Home = () => {
                         <option value="title">제목순</option>
                     </select>
                 </div>
-                <Product data={sortData} />
+                <Product data={sortData} category={category} />
             </div>
         </>
     )
