@@ -6,7 +6,7 @@ import { MdDeleteForever } from 'react-icons/md';
 import { AiFillHeart } from 'react-icons/ai';
 
 import { fetchAllProduct } from '../redux/list';
-import {removeFromCart} from '../redux/cart';
+import {removeFromCart, removeAll} from '../redux/cart';
 import { category } from '../api/api';
 import './Cart.css'
 
@@ -89,6 +89,9 @@ const Cart = () => {
                     })
                 }
             </ul>
+            <button type="button" className="deleteAll"
+                onClick={() => {dispatch(removeAll())}}
+            >전체삭제</button>
         </div>
     )
 }
