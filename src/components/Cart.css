@@ -1,0 +1,24 @@
+/* Cart.css */
+.cartWrap {
+  padding:30px 5% 80px;
+  box-sizing: border-box;
+}
+
+.noItems {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.noItems > div {
+  border: 1px solid #666;
+  box-sizing: border-box;
+  padding: 10% 5% 12%;
+}
+
+.noItems svg {
+  font-size: 30px;
+}
+
+.noItems p {
+  margin-top: 10px;
+}
