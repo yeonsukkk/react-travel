@@ -1,0 +1,253 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.hide {
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    text-indent: -99999em;
+    position: absolute;
+    visibility: hidden;
+}
+
+html, body {
+    background: #db80b9;
+    /* background: linear-gradient(135deg, #f69aaf 0%, #a94fcc 62%, #772edc 100%); */
+    background: linear-gradient(-45deg, #014872 0, #a0eacf 100%);
+}
+
+#root {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#allWrap {
+    width: 950px;
+    min-width: 950px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#desktop {
+    width: 300px;
+    display: none;
+}
+
+#desktop img {
+    width: 100%;
+}
+
+#desktop h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+#desktop h2 > i {
+    font-size: 75px;
+}
+
+#desktop > p {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#desktop .qr {
+    display: flex;
+    margin-top: 20px;
+}
+
+#mainWrap {
+    width: 390px;
+    height: 775px;
+    background: url('./img/bg/bg_phone1.png') no-repeat left top;
+    position: relative;
+}
+
+#mainWrap #mWrap {
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    width: 340px;
+    height: 734px;
+    border-radius: 43px;
+    overflow-y: auto;
+    background-color: #fff;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#mainWrap #mWrap::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#mWrap nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5% 10px;
+    box-sizing: border-box;
+}
+
+#mWrap nav a {
+    display: block;
+    font-size: 35px;
+    color: #202445;
+}
+
+#mWrap nav h1 a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+}
+
+#mWrap nav li {
+    position: relative;
+}
+
+#mWrap nav li .cartNum {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 50%;
+    background-color: orangered;
+    font-size: 16px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#mWrap .mainBanner img {
+    width: 100%;
+}
+
+#mWrap .productList {
+    padding: 30px 5% 80px;
+    box-sizing: border-box;
+}
+
+#mWrap .productList .topBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#mWrap .productList .topBox h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#mWrap .cnt li {
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 15px 0;
+    position: relative;
+}
+
+#mWrap .cnt li:last-child {
+    border-bottom: 0 none;
+}
+
+#mWrap .cnt li figure {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mWrap .cnt li figure > img {
+    width: 30%;
+    object-fit: cover;
+}
+
+#mWrap .cnt li figcaption {
+    width: 65%;
+}
+
+#mWrap .cnt li .like {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+#mWrap .cnt li .like button {
+    width: 30px;
+    height: 25px;
+    border: 0 none;
+    background-color: none;
+    background: url('./img/icon/icon_like.png') no-repeat;
+    background-size: 100% auto;
+}
+
+#mWrap .cnt li .title {
+    font-size: 15px;
+    width: 90%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; */
+}
+
+#mWrap .cnt li dd {
+    font-size: 13px;
+}
+
+#mWrap .cnt li .price {
+    display: flex;
+    align-items: center;
+}
+
+#mWrap .cnt li .review {
+    margin-top: 5px;
+    width: 80px;
+    padding-top: 15px;
+    background: url('./img/icon/icon_review_before.png') no-repeat top left;
+    background-size: 100% auto;
+    position: relative;
+}
+
+#mWrap .cnt li .review:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('./img/icon/icon_review_after.png') no-repeat bottom left;
+}
+
+
+#mWrap .cnt li .review[data-review="0.5"]:after{
+    background-size: 100% auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 50px;
+    font-size: 12px;
+}

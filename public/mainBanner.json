@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "./images/mainBanner/bg_mainBanner1.jpg",
+        "title": "여행사진 1"
+    },
+    {
+        "id": 2,
+        "imgUrl": "./images/mainBanner/bg_mainBanner2.jpg",
+        "title": "여행사진 2"
+    },
+    {
+        "id": 3,
+        "imgUrl": "./images/mainBanner/bg_mainBanner3.jpg",
+        "title": "여행사진 3"
+    }
+]

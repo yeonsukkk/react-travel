@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "img": "./images/pic/displayDISPLAY_20220930232833_0.jpg",
+    "title": "차오프라야 프린세스 디너 크루즈 티켓",
+    "price": 20000,
+    "discount": 50,
+    "review": 0.5,
+    "category": 0
+  },
+  {
+    "id": 2,
+    "img": "./images/pic/goodsGOODS_20221214173236_0.jfif",
+    "title": "아유타야 선셋 리버크루즈 오후 반일 투어",
+    "price": 39230,
+    "discount": 5,
+    "review": 5,
+    "category": 6
+  },
+  {
+    "id": 3,
+    "img": "./images/pic/GA0002002568_6d9ed3e8-c765-4688-b1ad-00a5a6855b3d.jfif",
+    "title": "원더풀 펄 디너 크루즈 티켓",
+    "price": 35307,
+    "discount": 5,
+    "review": 3,
+    "category": 2
+  },
+  {
+    "id": 4,
+    "img": "./images/pic/goodsGOODS_20221216183058_0.jpg",
+    "title": "담넌사두억 수상시장 + 위험한 기찻길 시장 반일투어",
+    "price": 25500,
+    "discount": 5,
+    "review": 1,
+    "category": 4 
+  },
+  {
+    "id": 5,
+    "img": "./images/pic/goodsGOODS_20221219174353_0.jpg",
+    "title": "반얀트리 호텔 사프란 디너 크루즈",
+    "price": 48057,
+    "discount": 5,
+    "review": 5,
+    "category": 0
+  },
+  {
+    "id": 6,
+    "img": "./images/pic/goodsGOODS_20221208174925_0.jpg",
+    "title": "올인클루시브, 왕궁+에메랄드 사원+새벽사원 반일투어",
+    "price": 27461,
+    "discount": 0,
+    "review": 4,
+    "category": 0
+  },
+  {
+    "id": 7,
+    "img": "./images/pic/goodsGOODS_20221215150617_0.jpg",
+    "title": "가이드와 함께 하는 아유타야 오후 반일 선셋 단독 투어",
+    "price": 19615,
+    "discount": 0,
+    "review": 4,
+    "category": 1
+  },
+  {
+    "id": 8,
+    "img": "./images/pic/goodsGOODS_20221216150410_0.jfif",
+    "title": "마하나콘 스카이 워크 @ 킹 파워",
+    "price": 9318,
+    "discount": 5 ,
+    "review": 3.5,
+    "category": 2
+  },
+  {
+    "id": 9,
+    "img": "./images/pic/goodsGOODS_20221216155835_0.jfif",
+    "title": "가이드와 함께 하는 담넌사두억 + 위험한 기찻길 단독투어",
+    "price": 560000,
+    "discount": 0,
+    "review": 2.5,
+    "category": 4
+  },
+  {
+    "id": 10,
+    "img": "./images/pic/GA0002002006_b5014db9-8cb7-4d3c-aced-ce87bce253ec.jfif",
+    "title": "무앙보란 입장권",
+    "price": 54000,
+    "discount": 0,
+    "review": 5,
+    "category": 3
+  },
+  {
+    "id": 11,
+    "img": "./images/pic/GA0002002008_d05e1e44-e190-440e-92ae-d9f28a919e98.jfif",
+    "title": "카오키여우 오픈 주 단독투어",
+    "price": 55000,
+    "discount": 18,
+    "review": 4,
+    "category": 5
+  },
+  {
+    "id": 12,
+    "img": "./images/pic/GA0002002019_8254ca10-662b-45f6-87d7-9c8cc49131c4.jfif",
+    "title": "[5성급/3박] 하얏트 리젠시 방콕 스쿰빗",
+    "price": 69000,
+    "discount": 10,
+    "review": 5,
+    "category": 5
+  },
+  {
+    "id": 13,
+    "img": "./images/pic/GA0002002025_5a90957b-863f-4e31-9915-f533b8f61ca9.jfif",
+    "title": "담넌사두억+위험한시장+왕궁[한국인전용 전일투어]",
+    "price": 99000,
+    "discount": 11,
+    "review": 5,
+    "category": 6
+  },
+  {
+    "id": 14,
+    "img": "./images/pic/GA0002002027_764646c2-235e-4185-9f4e-5e7ef73cce9f.jfif",
+    "title": "미린 쇼",
+    "price": 790000,
+    "discount": 91,
+    "review": 2,
+    "category": 1
+  },
+  {
+    "id": 15,
+    "img": "./images/pic/GA0002002037_c0a51815-54af-4d1b-bf7d-b5384eddf162.jfif",
+    "title": "아난타라 마노라 디너 크루즈 티켓",
+    "price": 79000,
+    "discount": 0,
+    "review": 1,
+    "category": 2
+  },
+  {
+    "id": 16,
+    "img": "./images/pic/GA0002002038_016598df-e0e6-4f61-98e8-c81a7d26924b.jfif",
+    "title": "화이트 오키드 리버 크루즈 티켓",
+    "price": 54000,
+    "discount": 0,
+    "review": 1.5,
+    "category": 4
+  },
+  {
+    "id": 17,
+    "img": "./images/pic/GA0002002232_7dc8e4e4-4c4d-41d0-9c29-91e7e80154c2.jfif",
+    "title": "아유타야 선셋 단독투어 [방콕출발]",
+    "price": 140000,
+    "discount": 7,
+    "review": 3,
+    "category": 4
+  },
+  {
+    "id": 18,
+    "img": "./images/pic/GA0002002043_73528b77-f9b5-4fb9-8d36-0dd11fba06a7.jfif",
+    "title": "드림월드 입장권",
+    "price": 40000,
+    "discount": 0,
+    "review": 4,
+    "category": 5
+  },
+  {
+    "id": 19,
+    "img": "./images/pic/GA0002002291_2c3578a5-31a8-4634-ae20-5e9e8f3870f1.jfif",
+    "title": "바이욕 스카이 호텔 뷔페 티켓",
+    "price": 65000,
+    "discount": 7,
+    "review": 3.5,
+    "category": 3
+  },
+  {
+    "id": 20,
+    "img": "./images/pic/GA0002002518_ae40b63a-c3a6-4dee-a545-c21100b63b59.jfif",
+    "title": "파타야 산호섬 해양 스포츠 어드벤처 일일투어 [파타야 어드벤처]",
+    "price": 30000,
+    "discount": 0,
+    "review": 2,
+    "category": 2
+  },
+  {
+    "id": 21,
+    "img": "./images/pic/GA0002002036_518393a7-e232-44d4-b99a-25fb0cc564cd.jfif",
+    "title": "로얄 프린세스 선셋/디너 크루즈 티켓",
+    "price": 38408,
+    "discount": 5,
+    "review": 1,
+    "category": 4
+  },
+  {
+    "id": 22,
+    "img": "./images/pic/GA0002002296_3a428a7e-9258-4e2b-9c60-1a363040e9dd.jfif",
+    "title": "[방콕출발] 아유타야 & 암파와 일일 단독투어",
+    "price": 33989,
+    "discount": 0,
+    "review": 1,
+    "category": 6
+  },
+  {
+    "id": 23,
+    "img": "./images/pic/GA0002002332_68549d80-336b-40e0-ae8a-e5630a2af48b.jfif",
+    "title": "더 데크 레스토랑 티켓",
+    "price": 53800,
+    "discount": 5,
+    "review": 4.5,
+    "category": 6 
+  },
+  {
+    "id": 24,
+    "img": "./images/pic/GA0002002525_9d8141da-270e-44ce-8b78-f8f4416d032e.jfif",
+    "title": "[시암 출발] 담넌사두억 수상시장 + 위험한 기찻길 시장 반일투어 [한국인전용]",
+    "price": 18000,
+    "discount": 7,
+    "review": 3.5,
+    "category": 4
+  },
+  {
+    "id": 25,
+    "img": "./images/pic/GA0002002746_edf6e030-35aa-487c-8322-f79c619f925f.jfif",
+    "title": "후쿠오카 버스 투어 1일 (다자이후/유후인/ 벳부)",
+    "price": 20000,
+    "discount": 10,
+    "review": 2,
+    "category": 2
+  },
+  {
+    "id": 26,
+    "img": "./images/pic/GA0002002763_5ccdc064-6976-43a7-a74a-3f82067215f5.jfif",
+    "title": "오사카 교토 1일 버스투어 후시미이나리 청수사 금각사 아라시야마 최소 4명 출발확정",
+    "price": 31157,
+    "discount": 5,
+    "review": 2.5,
+    "category": 3
+  },
+  {
+    "id": 27,
+    "img": "./images/pic/GA0002002771_149af4f9-380c-4639-bb79-3b031dac7771.jfif",
+    "title": "북해도 비에이&후라노 1일 버스투어 BEST여행코스",
+    "price": 28500,
+    "discount": 7,
+    "review": 3.5,
+    "category": 1
+  },
+  {
+    "id": 28,
+    "img": "./images/pic/GA0002002786_ef1b6d80-b52f-4406-9bf4-28cd35e805dc.jfif",
+    "title": "[점심식사포함] 비에이 후라노 1일 삿포로 일일버스투어 눈의왕국 홋카이도",
+    "price": 300000,
+    "discount": 91,
+    "review": 5,
+    "category": 1
+  },
+  {
+    "id": 29,
+    "img": "./images/pic/GA0002002235_7ba95f6c-6e88-499b-8636-a2f3b816fe2f.jfif",
+    "title": "북해도 6스팟 비에이 후라노 1일 버스 투어 (최소 4명 출확 추가금 X) 청의호수 방문",
+    "price": 10000,
+    "discount": 0,
+    "review": 1.5,
+    "category": 0
+  },
+  {
+    "id": 30,
+    "img": "./images/pic/GA0002002230_694333f7-0ffa-4fee-a4dd-c6c0af0291d2.jfif",
+    "title": "삿포로 비에이 1일 버스투어(북해도 홋카이도 자유여행)",
+    "price": 20000,
+    "discount": 42,
+    "review": 5,
+    "category": 0
+  }
+]

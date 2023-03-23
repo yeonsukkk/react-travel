@@ -1,0 +1,43 @@
+/* media.css */
+@media (min-width: 801px){
+    html, body{
+        min-width: 1200px;
+    }
+    #desktop {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    html, body {
+        background: none;
+    }
+    #root {
+        height: auto;
+    }
+    #allWrap {
+        width: 100%;
+        min-width: 100%;
+        position: static;
+        display: block;
+        transform: translate(0,0)
+    }
+
+    #mainWrap  {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+
+    #mainWrap #mWrap {
+        position: static;
+        width: auto;
+        height: auto;
+        overflow: auto;
+        border-radius: 0;
+    }
+
+    #mWrap nav {
+        padding: 20px 5% 10px; 
+    }
+}
