@@ -20,7 +20,7 @@ const Product = ({data}) => {
                                             <dt className="title">{item.title}</dt>
                                             <dd className="category">{category[item.category]}</dd>
                                             <dd className="price">
-                                                <p className={item.discount === 0 && "bold"}>
+                                                <p className={item.discount === 0 ? "bold" : undefined}>
                                                     {
                                                         (item.discount === 0)
                                                         ?
