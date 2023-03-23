@@ -1,6 +1,5 @@
-import { useSelector, useDispatch } from "react-redux";
 import { FaArrowDown } from 'react-icons/fa';
-import like from '../img/icon/icon_like.png'
+import BtnLike from "./BtnLike";
 
 
 const Product = ({data}) => {
@@ -24,10 +23,13 @@ const Product = ({data}) => {
                                                 <p>{(item.price - Math.ceil(item.price * (item.discount / 100))).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}원</p>
                                             </dd>
                                             <dd className="category">{category[item.category]}</dd>
-                                            <dd className="review" data-review={item.review}></dd>
+                                            <dd className="review" data-review={item.review}>
+                                                <span></span>
+                                                <i>&#40;{item.review}&#41;</i>
+                                            </dd>
                                         </dl>
                                         <p className="like">
-                                            <button type="button"></button>
+                                            <BtnLike id={item.id} />
                                         </p>
                                     </figcaption>
                                 </figure>    

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { isCompositeComponent } from 'react-dom/test-utils';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllProduct } from '../redux/list';
 import MainBanner from './MainBanner'

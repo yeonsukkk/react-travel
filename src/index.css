@@ -10,6 +10,16 @@ img {
     vertical-align: top;
 }
 
+button {
+    border: 0 none;
+    border-radius: 0;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
 .hide {
     font-size: 0;
     line-height: 0;
@@ -189,12 +199,16 @@ html, body {
 }
 
 #mWrap .cnt li .like button {
-    width: 30px;
-    height: 25px;
-    border: 0 none;
-    background-color: none;
-    background: url('./img/icon/icon_like.png') no-repeat;
-    background-size: 100% auto;
+    padding: 5px;
+}
+
+#mWrap .cnt li .like svg {
+    font-size: 20px;
+    color: #b6b6b6;
+}
+
+#mWrap .cnt li .like button.on svg {
+    color: orangered;
 }
 
 #mWrap .cnt li .title {
@@ -204,10 +218,6 @@ html, body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    /* text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; */
 }
 
 #mWrap .cnt li dd {
@@ -219,29 +229,67 @@ html, body {
     align-items: center;
 }
 
-#mWrap .cnt li .review {
+#mWrap .cnt li .review span {
     margin-top: 5px;
-    width: 80px;
+    width: 78px;
     padding-top: 15px;
-    background: url('./img/icon/icon_review_before.png') no-repeat top left;
-    background-size: 100% auto;
+    background: url('./img/icon/icon_review.png') repeat-x top left;
+    background-size: auto 200%;
     position: relative;
+    display: inline-block;
 }
 
-#mWrap .cnt li .review:after {
+#mWrap .cnt li .review span:after {
     display: block;
     content: "";
     position: absolute;
     top: 0; 
     left: 0;
     height: 100%;
-    width: 100%;
-    background: url('./img/icon/icon_review_after.png') no-repeat bottom left;
+    width: 0;
+    background: url('./img/icon/icon_review.png') repeat-x bottom left;
+    background-size: auto 200%;
+    /* background: url('./img/icon/icon_review_after.png') no-repeat bottom left; */
 }
 
+#mWrap .cnt li .review[data-review="0"] span:after{
+    width: 0;
+}
+#mWrap .cnt li .review[data-review="0.5"] span:after{
+    width: 10%;
+}
+#mWrap .cnt li .review[data-review="1"] span:after{
+    width: 20%;
+}
+#mWrap .cnt li .review[data-review="1.5"] span:after{
+    width: 30%;
+}
+#mWrap .cnt li .review[data-review="2"] span:after{
+    width: 40%;
+}
+#mWrap .cnt li .review[data-review="2.5"] span:after{
+    width: 50%;
+}
+#mWrap .cnt li .review[data-review="3"] span:after{
+    width: 60%;
+}
+#mWrap .cnt li .review[data-review="3.5"] span:after{
+    width: 70%;
+}
+#mWrap .cnt li .review[data-review="4"] span:after{
+    width: 80%;
+}
+#mWrap .cnt li .review[data-review="4.5"] span:after{
+    width: 90%;
+}
+#mWrap .cnt li .review[data-review="5"] span:after{
+    width: 100%;
+}
 
-#mWrap .cnt li .review[data-review="0.5"]:after{
-    background-size: 100% auto;
+#mWrap .cnt li .review i {
+    vertical-align: 4px;
+    display: inline-block;
+    margin-left: 4px
 }
 
 footer {
