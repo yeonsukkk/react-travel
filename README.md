@@ -77,7 +77,7 @@ react-portfolio1_travel
   *pages : src>components>Home.js*<br />
   *component : src>components>Product.js / src>components>BtnLike.js*
   <br />
-    <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/home1.png" alt="홈 이미지1" width="300" />
+    <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/home1.png" alt="홈 이미지1" width="300" style="vertical-align: top" />
     <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/home2.png" alt="홈 이미지2" width="150" />
       - 데이터
         - Redux(useDispatch(), useEffect())를 사용하여 데이터 가져옴<br />
@@ -109,7 +109,7 @@ react-portfolio1_travel
     *pages : src>components>Cart.js* <br />
     *redux : src>redux>cart.js*
     <br />
-    <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/cart1.png" alt="카트 이미지1" width="300" />
+    <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/cart1.png" alt="카트 이미지1" width="300" style="vertical-align: top" />
     <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/cart2.png" alt="카트 이미지2" width="150" />
 
       - 데이터
