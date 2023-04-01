@@ -112,8 +112,8 @@ react-portfolio1_travel
 
       - 데이터
         - Redux(useDispatch(), useEffect())를 사용하여 데이터 가져옴<br />
-        <br /><br />
-      - 관심 여행상품 목록
+        <br />
+      - 레이아웃(관심 여행상품 목록)
         - 관심 여행상품 목록이 없을 경우<br />
           "상품을 담아주세요!" 노출
         - 관심 여행상품 목록이 있을 경우<br />
