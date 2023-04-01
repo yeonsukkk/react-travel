@@ -80,7 +80,7 @@ react-portfolio1_travel
     <img src="https://ys-react-travel2.s3.ap-northeast-2.amazonaws.com/git/home2.png" alt="홈 이미지2" width="150" />
     
       - 데이터
-        - Redux(createAsyncThunk(), useDispatch(), useEffect())를 사용하여 데이터 가져옴<br />
+        - Redux(createAsyncThunk(), useSelector(), useDispatch(), useEffect())를 사용하여 데이터 가져옴<br />
           *src>redux>cart.js*
       <br /><br />
       - 레이아웃
