@@ -82,6 +82,20 @@ react-portfolio1_travel
       - 데이터
         - Redux(createAsyncThunk(), useSelector(), useDispatch(), useEffect())를 사용하여 데이터 가져옴<br />
           *src>redux>cart.js*
+          ```bash
+          json 파일 형식
+          [
+            {
+                "id": 1,
+                "img": "url",
+                "title": "title",
+                "price": 27069,
+                "discount": 50,
+                "review": 4.5,
+                "category": 0
+            }
+          ]
+          ```
       <br /><br />
       - 레이아웃
         - 메인 비주얼 영역
