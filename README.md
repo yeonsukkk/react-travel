@@ -86,20 +86,19 @@ react-portfolio1_travel
       - 메인 비주얼 영역
         - Swiper 이용하여 가져온 데이터로 슬라이드 구현
       <br /><br />
+      
       - 여행상품 목록
         - 옵션
-        <br />
           - 옵션 목록 : 등록순, 카테고리순, 가격순, 리뷰순, 할인율순, 제목순
           - 옵션에 따라 sort()를 이용하여 여행상품 목록 재정렬
         - 리스트
-        <br />
-          - props를 이용하여 *src/components>Product.js*로 데이터 넘겨 받음
+          - props를 이용하여 *src/components>Product.js* 로 데이터 넘겨 받음
           - 할인이 있는 경우 : 할인 계산 후 할인된 금액 출력
           - 리뷰 단위 : 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5<br />
             css를 이용해서 레이아웃을 ★로 표기함
           - 관심버튼 클릭 시<br />
             redux(useSelector(), useDispatch())<br />
-            *src>redux>cart.js*의 reducers>addToCart()에 따라 변수인 cart에 담긴 후 장바구니 페이지에 노출<br />
+            *src>redux>cart.js* 의 reducers>addToCart()에 따라 변수인 cart에 담긴 후 장바구니 페이지에 노출<br />
             클릭 시 ♡ ↔ ♥ 로 아이콘 변경<br />
             우측 상단의 카트에 담긴 개수 표기            
 <br />
